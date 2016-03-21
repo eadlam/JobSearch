@@ -38,7 +38,7 @@ export default {
   },
 
   all: function(){
-    return state
+    return state;
   }
 
 };

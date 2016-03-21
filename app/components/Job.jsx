@@ -1,19 +1,19 @@
-import React from 'react'
+import React from 'react';
 
-import Colors from 'material-ui/lib/styles/colors'
+import Colors from 'material-ui/lib/styles/colors';
 
-import Card from 'material-ui/lib/card/card'
-import CardActions from 'material-ui/lib/card/card-actions'
-import CardHeader from 'material-ui/lib/card/card-header'
-import CardMedia from 'material-ui/lib/card/card-media'
-import CardTitle from 'material-ui/lib/card/card-title'
-import CardText from 'material-ui/lib/card/card-text'
+import Card from 'material-ui/lib/card/card';
+import CardActions from 'material-ui/lib/card/card-actions';
+import CardHeader from 'material-ui/lib/card/card-header';
+import CardMedia from 'material-ui/lib/card/card-media';
+import CardTitle from 'material-ui/lib/card/card-title';
+import CardText from 'material-ui/lib/card/card-text';
 
-import RaisedButton from 'material-ui/lib/raised-button'
+import RaisedButton from 'material-ui/lib/raised-button';
 
-import JobDetails from './JobDetails'
-import CompanyActions from '../actions/CompanyActions'
-import CompanyStore from '../stores/CompanyStore'
+import JobDetails from './JobDetails';
+import CompanyActions from '../actions/CompanyActions';
+import CompanyStore from '../stores/CompanyStore';
 
 import Divider from 'material-ui/lib/divider';
 
@@ -131,7 +131,7 @@ var Job = React.createClass({
   toggleExpanded: function(){
     this.setState({
       expanded: !this.state.expanded
-    })
+    });
   },
 
 

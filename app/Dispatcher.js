@@ -1,4 +1,4 @@
-import Rx from 'rxjs'
+import Rx from 'rxjs';
 
 var Dispatcher = new Rx.Subject();
 

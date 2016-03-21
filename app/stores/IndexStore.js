@@ -1,8 +1,8 @@
-import _ from 'lodash'
-import Rx from 'rxjs'
-import Dispatcher from '../Dispatcher'
-import Immutable from 'immutable'
-import Constants from '../Constants'
+import _ from 'lodash';
+import Rx from 'rxjs';
+import Dispatcher from '../Dispatcher';
+import Immutable from 'immutable';
+import Constants from '../Constants';
 
 
 var companies = Immutable.Map();

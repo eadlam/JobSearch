@@ -1,7 +1,7 @@
-import Rx from 'rxjs'
-import Dispatcher from '../Dispatcher'
-import Immutable from 'immutable'
-import Constants from '../Constants'
+import Rx from 'rxjs';
+import Dispatcher from '../Dispatcher';
+import Immutable from 'immutable';
+import Constants from '../Constants';
 
 // keys are the job id
 // values are the job object
@@ -59,7 +59,7 @@ export default {
   },
 
   all: function(){
-    return state
+    return state;
   },
 
   getCached: function(id){
@@ -68,7 +68,7 @@ export default {
         id: id,
         status: Constants.CACHE_HIT,
         results: cacheIndex.get(id).map(function(jobID){
-          return state.get(jobID)
+          return state.get(jobID);
         })
       }
     } else {

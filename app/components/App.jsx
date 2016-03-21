@@ -1,23 +1,23 @@
-import _ from 'lodash'
-import React from 'react'
+import _ from 'lodash';
+import React from 'react';
 
-import utils from '../utils/utils'
-import Constants from '../Constants'
+import utils from '../utils/utils';
+import Constants from '../Constants';
 
-import JobStore from '../stores/JobStore'
-import JobActions from '../actions/JobActions'
+import JobStore from '../stores/JobStore';
+import JobActions from '../actions/JobActions';
 
-import IndexStore from '../stores/IndexStore'
+import IndexStore from '../stores/IndexStore';
 
-import Jobs from './Jobs'
+import Jobs from './Jobs';
 
-import Checkbox from 'material-ui/lib/checkbox'
+import Checkbox from 'material-ui/lib/checkbox';
 
-import RaisedButton from 'material-ui/lib/raised-button'
+import RaisedButton from 'material-ui/lib/raised-button';
 import HardwareArrowLeft from 'material-ui/lib/svg-icons/hardware/keyboard-arrow-left';
 import HardwareArrowRight from 'material-ui/lib/svg-icons/hardware/keyboard-arrow-right';
 
-import LeftNav from 'material-ui/lib/left-nav'
+import LeftNav from 'material-ui/lib/left-nav';
 
 
 export default React.createClass({

@@ -1,7 +1,7 @@
-import axios from 'axios'
-import Dispatcher from '../Dispatcher'
-import Constants from '../Constants'
-import Config from '../Config'
+import axios from 'axios';
+import Dispatcher from '../Dispatcher';
+import Constants from '../Constants';
+import Config from '../Config';
 
 export default {
 
