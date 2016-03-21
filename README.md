@@ -22,6 +22,7 @@ To build:
 **Design Constraints**
 
 Some notable features about the jobs API are:
+
 1. It doesn’t support keyword search
 2. Values for filterable fields (Company, Category, Level, and Location) must be spelled correctly including case and inclusion of non-alphanumeric symbols (e.g. “Stockholm, Sweden”)
 3. The “rank” used to sort jobs is not included as a field in the job object. jobs are “intelligently sorted by a number of factors such as trendiness, uniqueness, newness”
@@ -36,7 +37,7 @@ I chose not to pre-index all the jobs, because that would result in an app that 
 
 The result is a UI that starts by loading page 0 with no filters, and indexes all companies on that page. Incrementing the page results in the app indexing more companies. Selecting one or more companies from the resulting menu performs a new search filtered by those companies. 
 
-Additionally, for each job, I also query the /companies/:id endpoint so that I could include company details in the job descriptions (mainly logos and images).
+Additionally, for each job, I also query the /**companies/:id** endpoint so that I could include company details in the job descriptions (mainly logos and images).
 
 **Caching**
 
