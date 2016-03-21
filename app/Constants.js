@@ -1,0 +1,6 @@
+export default {
+  JOB: "JOB",
+  COMPANY: "COMPANY",
+  CACHE_HIT: "CACHE_HIT",
+  CACHE_MISS: "CACHE_MISS"
+}

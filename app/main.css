@@ -1,0 +1,14 @@
+body {
+  background-color: #e9eaec;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
